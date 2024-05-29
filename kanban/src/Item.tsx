@@ -1,0 +1,5 @@
+/*
+the class that you will use for storing the contents of a given card that is clicked on
+
+UPDATE AFTER YOU IMPLEMENT most of the frontend
+*/
