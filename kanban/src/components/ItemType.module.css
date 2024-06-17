@@ -1,36 +1,41 @@
 
 .Defect {
-    margin: 1em;
+    padding: .5em 1em;
     background-color: var(--COLOR_DEFECT);
-    color: black;
+    border-radius: var(--roundMedium);
+    max-width: max-content;
     font-family: Arial, Helvetica, sans-serif;
 }
 
 .Task {
-    margin: 1em;
+    padding: .5em 1em;
     background-color: var(--COLOR_TASK);
-    color: black;
+    border-radius: var(--roundMedium);
+    max-width: max-content;
     font-family: Arial, Helvetica, sans-serif;
 }
 
 .SubTask {
-    margin: 1em;
+    padding: .5em 1em;
     background-color: var(--COLOR_SUBTASK);
-    color: black;
+    border-radius: var(--roundMedium);
+    max-width: max-content;
     font-family: Arial, Helvetica, sans-serif;
 }
 
 .Story {
-    margin: 1em;
+    padding: .5em 1em;
     background-color: var(--COLOR_STORY);
-    color: black;
+    border-radius: var(--roundMedium);
+    max-width: max-content;
     font-family: Arial, Helvetica, sans-serif;
 }
 
 .Epic {
-    margin: 1em;
+    padding: .5em 1em;
     background-color: var(--COLOR_EPIC);
-    color: black;
-    font-family: Arial, Helvetica, sans-serif; 
+    border-radius: var(--roundMedium);
+    max-width: max-content;
+    font-family: Arial, Helvetica, sans-serif;
 }
 

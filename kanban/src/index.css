@@ -8,10 +8,11 @@
 }
 
 :root {
-    --xsFont: 14px;
-    --sFont: 20px;
-    --mFont: 24px;
-    --lFont: 32px;
+    /* delete these comments later */
+    --xsFont: 14px; /* fs200 */
+    --sFont: 20px; /* fs300 */
+    --mFont: 24px; /* fs400 */
+    --lFont: 32px; /* fs500 */
 
     --lineHeight1: 1;
     --lineHeight1_1: 1.1;
@@ -23,5 +24,69 @@
     --COLOR_SUBTASK: #a3d0fd;
     --COLOR_STORY: #77DD77;
     --COLOR_EPIC: #966FD6;
+    --ACCENT_1: 245 75% 54.5%;
+    --ACCENT_2: 40 98.2% 43.7%;
+    --MUTED: 249 15.7% 80%;
+    --BACKGROUND: 248 80% 98%;
+    --CARD_TEXT_COLOR: 246 76% 4.9%;
 
+
+    /* utils */
+    --spaceSmall: clamp(0.4rem, 1.5vw, 0.8rem);
+    --spaceMedium: clamp(1rem, 2.5vw, 1.4rem);
+    --spaceLarge: clamp(2rem, 4vw, 2.2rem);
+    --content: 50ch;
+    --roundSmall: 4px;
+    --roundMedium: 10px;
+    --roundLarge: 15px;
+    --round: 100vmax;
+}
+
+/* base vals for the body */
+body {
+    display: grid;
+    place-items: center;
+    min-height: 100vh;
+    padding: var(--spaceLarge);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: var(--mFont);
+    line-height: var(--lineHeight1_4);
+    font-weight: 400;
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: greyscale;
+    -webkit-text-size-adjust: 100%;
+    background-color: hsl(var(--BACKGROUND));
+    color: hsl(var(--CARD_TEXT_COLOR))
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 600;
+    line-height: var(--lineHeight1_1);
+    font-size: var(--lFont);
+}
+
+small {
+    font-size: var(--sFont);
+    line-height: var(--lineHeight1);
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.stack-large {
+    display: grid;
+    gap: var(--spaceLarge);
+}
+
+.stack-medium {
+    display: grid;
+    gap: var(--spaceMedium);
+}
+
+.stack-small {
+    display: grid;
+    gap: var(--spaceSmall);
 }
