@@ -15,16 +15,5 @@ export const Card = ({ticketNumber, title, itemType, assignee}: CardInterface) =
   </div>
 
 </section>
-    /* `` are backticks not quotes lmaooo that why things weren't working  */
-    /*<section className={`stack-large ${styles.card}`}>
-        <article>{ticketNumber}</article>
-        <article> {title} </article>
-        <article> {
-          itemType && <ItemType type={itemType.type}/>         
-        } </article>
-        <article> {assignee} </article>
-    </section>
-    redoing this so it could look better
-    */
   )
 }
