@@ -1,5 +1,5 @@
 import './App.css'
-import { ItemType } from './components/ItemType'
+import { Card } from './components/Card'
 import { ITEM_TYPE } from './types'
 
 function App() {
@@ -7,22 +7,14 @@ function App() {
 
   return (
     <>
-      {/* testing the item type badge*/}
-      <ItemType
-        type={ITEM_TYPE.DEFECT}
-      /> 
-      <ItemType
-        type={ITEM_TYPE.EPIC}
-      />
-      <ItemType
-        type={ITEM_TYPE.TASK}
-      /> 
-      <ItemType
-        type={ITEM_TYPE.SUBTASK}
-      />
-      <ItemType
-        type={ITEM_TYPE.STORY}
-      />
+      {/* testing the basic css for the card*/}
+      <Card
+        ticketNumber='WANDA-1' /* WorkoutANDroidApp*/
+        title='Create repo' /* you should figure out how to trail the strings later */
+        itemType={{type: ITEM_TYPE.STORY}}
+        assignee='Aditya' /* ya boy */
+      >
+      </Card>
     </>
   )
 }

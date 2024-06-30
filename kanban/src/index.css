@@ -8,11 +8,10 @@
 }
 
 :root {
-    /* delete these comments later */
-    --xsFont: 14px; /* fs200 */
-    --sFont: 20px; /* fs300 */
-    --mFont: 24px; /* fs400 */
-    --lFont: 32px; /* fs500 */
+    --xsFont: 14px;
+    --sFont: 20px;
+    --mFont: 24px;
+    --lFont: 32px;
 
     --lineHeight1: 1;
     --lineHeight1_1: 1.1;

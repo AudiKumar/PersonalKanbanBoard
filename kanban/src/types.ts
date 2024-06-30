@@ -6,3 +6,11 @@ export interface ItemTypeInterface {
 export enum ITEM_TYPE {
     DEFECT, TASK, SUBTASK, STORY, EPIC
 }
+
+export interface CardInterface {
+    ticketNumber: string /* should be a string cause it should be something like LETERS-ticket number */
+    title: string
+    itemType: ItemTypeInterface
+    /* making this optional cause its just gonna be me but feature wise this makes sense*/
+    assignee?: string  
+}

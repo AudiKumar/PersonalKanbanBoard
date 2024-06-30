@@ -1,0 +1,17 @@
+.card{
+    flex: 1 1 600px;
+    position: relative;
+    background-color: var(--BACKGROUND);
+    border-radius: var(--roundLarge);
+    padding: var(--spaceLarge);
+    box-shadow: 2px 2px 40px hsl(var(--MUTED));
+    max-width: var(--content);
+}
+
+.title{
+    max-width: var(--content);
+}
+
+.ticketNumber {
+    font-size: 1px;
+}
