@@ -23,6 +23,7 @@
     --COLOR_SUBTASK: #a3d0fd;
     --COLOR_STORY: #77DD77;
     --COLOR_EPIC: #966FD6;
+    --COLOR_SWIMLANE: #ffc067;
     --ACCENT_1: 245 75% 54.5%;
     --ACCENT_2: 40 98.2% 43.7%;
     --MUTED: 249 15.7% 80%;
@@ -34,7 +35,7 @@
     --spaceSmall: clamp(0.4rem, 1.5vw, 0.8rem);
     --spaceMedium: clamp(1rem, 2.5vw, 1.4rem);
     --spaceLarge: clamp(2rem, 4vw, 2.2rem);
-    --content: 50ch;
+    --content: 54.5%;
     --roundSmall: 4px;
     --roundMedium: 10px;
     --roundLarge: 15px;

@@ -4,7 +4,7 @@ export interface ItemTypeInterface {
 }
 
 export enum ITEM_TYPE {
-    DEFECT, TASK, SUBTASK, STORY, EPIC
+    DEFECT, TASK, SUBTASK, STORY, EPIC, SL_TODO, SL_START, SL_PR_C, SL_C
 }
 
 export interface CardInterface {
@@ -13,4 +13,9 @@ export interface CardInterface {
     itemType: ItemTypeInterface
     /* making this optional cause its just gonna be me but feature wise this makes sense*/
     assignee?: string  
+}
+
+export interface SwimLaneInterface {
+    swimLaneLabel: ItemTypeInterface
+    cardsInSwimLane: CardInterface[]
 }

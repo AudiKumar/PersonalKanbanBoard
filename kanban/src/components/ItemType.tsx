@@ -14,6 +14,14 @@ export const ItemType = ({type}: ItemTypeInterface) => {
         return "Story"
       case ITEM_TYPE.EPIC:
         return "Epic"
+      case ITEM_TYPE.SL_TODO:
+        return "ToDo"
+      case ITEM_TYPE.SL_START:
+        return "Started"
+      case ITEM_TYPE.SL_PR_C:
+        return "PR Created"
+      case ITEM_TYPE.SL_C:
+        return "Completed"
     }
   }
 
@@ -29,6 +37,12 @@ export const ItemType = ({type}: ItemTypeInterface) => {
         return styles.Story
       case ITEM_TYPE.EPIC:
         return styles.Epic 
+      case ITEM_TYPE.SL_TODO: 
+      case ITEM_TYPE.SL_START: 
+      case ITEM_TYPE.SL_PR_C: 
+      case ITEM_TYPE.SL_C:
+        return styles.SwimLaneLabel
+
     }
   }
   
