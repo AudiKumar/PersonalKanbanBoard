@@ -1,11 +1,12 @@
 .card{
-    flex: 1 1 600px;
+    flex: 1 0 600px;
     position: relative;
     background-color: var(--BACKGROUND);
     border-radius: var(--roundLarge);
     padding: var(--spaceLarge);
     box-shadow: 2px 2px 40px hsl(var(--MUTED));
-    max-width: var(--content);
+    margin: var(--spaceMedium);
+    max-width: 600px;
 }
 
 .title{
