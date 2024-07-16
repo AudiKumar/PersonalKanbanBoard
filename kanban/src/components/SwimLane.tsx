@@ -6,7 +6,7 @@ function SwimLane({swimLaneLabel, cardsInSwimLane}:SwimLaneInterface) {
   return (
 
     <div>
-        <div id="SwimLaneLabel">
+        <div style={{display: 'flex', justifyContent: 'center'}}>
             <ItemType
                 type={swimLaneLabel.type}
             />
